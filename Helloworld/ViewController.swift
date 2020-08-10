@@ -1,0 +1,43 @@
+//
+//  ViewController.swift
+//  Helloworld
+//
+//  Created by mac on 2020/08/03.
+//  Copyright © 2020 mac. All rights reserved.
+//
+
+import UIKit
+
+
+
+class ViewController: UIViewController, UIGestureRecognizerDelegate {
+
+    @IBOutlet var imgView: UIImageView!
+    @IBOutlet var pageControl: UIPageControl!
+    @IBOutlet var scrollview: UIScrollView!
+    @IBOutlet var astatic: UIButton!
+    @IBOutlet var waxing: UIButton!
+    @IBOutlet var makeup: UIButton!
+    @IBOutlet var `in`: UIButton!
+    @IBOutlet var nail: UIButton!
+    var images = ["png1.png", "png1,png"]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        pageControl.numberOfPages = images.count
+        pageControl.currentPage = 0
+        imgView.image = UIImage(named: images[0])
+        for i in 0..<images.count{
+            let imageView = UIImageView()
+            imageView.image = UIImage(named: images[i])
+            imageView.contentMode = .scaleAspectFit //  사진의 비율을 맞춤.
+        }
+    }
+
+    @IBAction func PageControl(_ sender: UIPageControl) {
+        imgView.image = UIImage(named: images[pageControl.currentPage])
+    }
+    
+}
+
