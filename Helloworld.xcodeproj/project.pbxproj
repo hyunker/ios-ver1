@@ -28,6 +28,15 @@
 		04EE799A24DD6A0F008894B4 /* socknunssup.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EE798F24DD6A0F008894B4 /* socknunssup.png */; };
 		04EE799B24DD6A0F008894B4 /* banyounggu.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EE799024DD6A0F008894B4 /* banyounggu.png */; };
 		04EE799C24DD6A0F008894B4 /* mydazul.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EE799124DD6A0F008894B4 /* mydazul.png */; };
+		04F0F55E24E3D55D00ECF761 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F55D24E3D55D00ECF761 /* HomeController.swift */; };
+		04F0F56024E3DF6800ECF761 /* TalkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F55F24E3DF6800ECF761 /* TalkController.swift */; };
+		04F0F56224E3DF9200ECF761 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56124E3DF9200ECF761 /* LocationController.swift */; };
+		04F0F56424E3DFE700ECF761 /* SaleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56324E3DFE700ECF761 /* SaleController.swift */; };
+		04F0F56624E3E03B00ECF761 /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56524E3E03B00ECF761 /* BoardController.swift */; };
+		04F0F56824E4029700ECF761 /* CustomMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56724E4029700ECF761 /* CustomMenuBar.swift */; };
+		04F0F56A24E4035A00ECF761 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56924E4035A00ECF761 /* Extensions.swift */; };
+		04F0F56C24E403B000ECF761 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56B24E403B000ECF761 /* CustomCell.swift */; };
+		04F0F56E24E403CC00ECF761 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56D24E403CC00ECF761 /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +63,15 @@
 		04EE798F24DD6A0F008894B4 /* socknunssup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = socknunssup.png; path = "../../../Downloads/아이콘/socknunssup.png"; sourceTree = "<group>"; };
 		04EE799024DD6A0F008894B4 /* banyounggu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banyounggu.png; path = "../../../Downloads/아이콘/banyounggu.png"; sourceTree = "<group>"; };
 		04EE799124DD6A0F008894B4 /* mydazul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mydazul.png; path = "../../../Downloads/아이콘/mydazul.png"; sourceTree = "<group>"; };
+		04F0F55D24E3D55D00ECF761 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		04F0F55F24E3DF6800ECF761 /* TalkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkController.swift; sourceTree = "<group>"; };
+		04F0F56124E3DF9200ECF761 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		04F0F56324E3DFE700ECF761 /* SaleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleController.swift; sourceTree = "<group>"; };
+		04F0F56524E3E03B00ECF761 /* BoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardController.swift; sourceTree = "<group>"; };
+		04F0F56724E4029700ECF761 /* CustomMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenuBar.swift; sourceTree = "<group>"; };
+		04F0F56924E4035A00ECF761 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		04F0F56B24E403B000ECF761 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		04F0F56D24E403CC00ECF761 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +108,12 @@
 				04559C7624D7FF9000BBF9C0 /* AppDelegate.swift */,
 				04559C7824D7FF9000BBF9C0 /* SceneDelegate.swift */,
 				04559C7A24D7FF9000BBF9C0 /* ViewController.swift */,
+				04559C8A24D8024A00BBF9C0 /* DetailController.swift */,
+				04F0F55D24E3D55D00ECF761 /* HomeController.swift */,
+				04F0F55F24E3DF6800ECF761 /* TalkController.swift */,
+				04F0F56524E3E03B00ECF761 /* BoardController.swift */,
+				04F0F56124E3DF9200ECF761 /* LocationController.swift */,
+				04F0F56324E3DFE700ECF761 /* SaleController.swift */,
 				04559C7C24D7FF9000BBF9C0 /* Main.storyboard */,
 				04559C7F24D7FF9100BBF9C0 /* Assets.xcassets */,
 				04D694A324DA9EAD0045B9BB /* Launch Screen.storyboard */,
@@ -107,7 +131,10 @@
 				04EE798F24DD6A0F008894B4 /* socknunssup.png */,
 				04EE798724DD6A0E008894B4 /* waxibgg.png */,
 				04559C8424D7FF9100BBF9C0 /* Info.plist */,
-				04559C8A24D8024A00BBF9C0 /* DetailController.swift */,
+				04F0F56724E4029700ECF761 /* CustomMenuBar.swift */,
+				04F0F56924E4035A00ECF761 /* Extensions.swift */,
+				04F0F56B24E403B000ECF761 /* CustomCell.swift */,
+				04F0F56D24E403CC00ECF761 /* PageCell.swift */,
 			);
 			path = Helloworld;
 			sourceTree = "<group>";
@@ -196,11 +223,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F0F56224E3DF9200ECF761 /* LocationController.swift in Sources */,
+				04F0F56C24E403B000ECF761 /* CustomCell.swift in Sources */,
 				04559C8B24D8024A00BBF9C0 /* DetailController.swift in Sources */,
 				04559C7B24D7FF9000BBF9C0 /* ViewController.swift in Sources */,
+				04F0F55E24E3D55D00ECF761 /* HomeController.swift in Sources */,
+				04F0F56024E3DF6800ECF761 /* TalkController.swift in Sources */,
+				04F0F56E24E403CC00ECF761 /* PageCell.swift in Sources */,
 				0440967224D82CE7006CBFBD /* ButtonController.swift in Sources */,
+				04F0F56824E4029700ECF761 /* CustomMenuBar.swift in Sources */,
+				04F0F56A24E4035A00ECF761 /* Extensions.swift in Sources */,
+				04F0F56624E3E03B00ECF761 /* BoardController.swift in Sources */,
 				04559C7724D7FF9000BBF9C0 /* AppDelegate.swift in Sources */,
 				04559C7924D7FF9000BBF9C0 /* SceneDelegate.swift in Sources */,
+				04F0F56424E3DFE700ECF761 /* SaleController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

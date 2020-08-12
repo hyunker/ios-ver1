@@ -15,13 +15,20 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet var imgView: UIImageView!
     @IBOutlet var pageControl: UIPageControl!
     @IBOutlet var scrollview: UIScrollView!
-    @IBOutlet var astatic: UIButton!
-    @IBOutlet var waxing: UIButton!
-    @IBOutlet var makeup: UIButton!
-    @IBOutlet var `in`: UIButton!
-    @IBOutlet var nail: UIButton!
-    var images = ["png1.png", "png1,png"]
+    @IBAction func astatic_btn(_ sender: Any) {
+    }
+    @IBAction func wax_btn(_ sender: Any) {
+    }
     
+    @IBAction func makeup_btn(_ sender: Any) {
+    }
+    @IBAction func in_btn(_ sender: Any) {
+    }
+    @IBAction func nail_btn(_ sender: Any) {
+    }
+    
+    var images = ["png1.png", "jpg2.jpg"]
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -38,6 +45,5 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBAction func PageControl(_ sender: UIPageControl) {
         imgView.image = UIImage(named: images[pageControl.currentPage])
     }
-    
 }
 
