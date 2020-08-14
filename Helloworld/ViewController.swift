@@ -11,7 +11,9 @@ import UIKit
 
 
 class ViewController: UIViewController, UIGestureRecognizerDelegate {
-
+    
+    @IBOutlet var homescrollview: UIScrollView!
+    
     @IBOutlet var imgView: UIImageView!
     @IBOutlet var pageControl: UIPageControl!
     @IBOutlet var scrollview: UIScrollView!
@@ -27,7 +29,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBAction func nail_btn(_ sender: Any) {
     }
     
-    var images = ["png1.png", "jpg2.jpg"]
+    var images = ["png1.png", "jpg2.jpg","invalidName.jpg"]
 
     override func viewDidLoad() {
         super.viewDidLoad()

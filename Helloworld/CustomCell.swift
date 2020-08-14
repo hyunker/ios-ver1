@@ -19,12 +19,6 @@ class CustomCell: UICollectionViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
-    override var isSelected: Bool {
-        didSet{
-            print("Changed")
-            self.label.textColor = isSelected ? .black : .lightGray
-        }
-    }
     override func awakeFromNib() {
         super.awakeFromNib()
         self.addSubview(label)

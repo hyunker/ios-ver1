@@ -15,10 +15,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ob1-ZV-pe4">
-                                <rect key="frame" x="105" y="145" width="68" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HkU-0w-t8D">
+                                <rect key="frame" x="172" y="162" width="45" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -26,16 +26,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="hax-Tt-NoS"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="내주변" image="location.fill" catalog="system" id="kw6-vQ-7pC"/>
+                    <tabBarItem key="tabBarItem" title="내주변" image="29" id="kw6-vQ-7pC">
+                        <color key="badgeColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MPJ-22-5Rf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1148" y="1149"/>
+            <point key="canvasLocation" x="1148" y="421"/>
         </scene>
-        <!--View Controller-->
+        <!--다줄샵-->
         <scene sceneID="TBR-B5-cvZ">
             <objects>
-                <viewController id="fGT-9h-ZWh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="saleController" id="fGT-9h-ZWh" customClass="SaleControlloer" customModule="Helloworld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1U2-GJ-4eG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,28 +49,39 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="click_mov:" destination="fGT-9h-ZWh" eventType="touchUpInside" id="cbp-YY-le8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="coZ-7P-wJ7"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="downloads" id="JCm-9q-usB"/>
+                    <tabBarItem key="tabBarItem" title="다줄샵" image="211" id="JCm-9q-usB">
+                        <color key="badgeColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="swM-UP-ox6"/>
-                    <connections>
-                        <segue destination="cFn-jQ-ScO" kind="show" id="88d-6O-Lj4"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xk1-6h-3hj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1148" y="2630.5418719211825"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail Controlloer-->
         <scene sceneID="Adc-bs-OhX">
             <objects>
-                <viewController id="cFn-jQ-ScO" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailController" id="cFn-jQ-ScO" customClass="DetailControlloer" customModule="Helloworld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Qa-xY-18d">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="해윙" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmj-GI-5qM">
+                                <rect key="frame" x="129" y="267" width="73" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="pHd-uV-8sA"/>
                     </view>
@@ -81,7 +94,6 @@
         <!--Item-->
         <scene sceneID="hg0-lf-pBZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="C33-yk-cjQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="BrD-YL-jFO" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="Ggt-g0-VD5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4m9-5r-Fws">
@@ -92,10 +104,11 @@
                         <segue destination="fGT-9h-ZWh" kind="relationship" relationship="rootViewController" id="Otz-Zk-rP7"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C33-yk-cjQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="244" y="2631"/>
         </scene>
-        <!--게시판-->
+        <!--다줄톡-->
         <scene sceneID="jk7-DB-r0h">
             <objects>
                 <viewController id="1dM-yi-6Qf" customClass="DetailControlloer" customModule="Helloworld" customModuleProvider="target" sceneMemberID="viewController">
@@ -103,10 +116,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSm-4H-dmb">
-                                <rect key="frame" x="109" y="127" width="68" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgP-X6-DKA">
+                                <rect key="frame" x="136" y="182" width="43" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -114,11 +127,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6BF-GM-kNq"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="게시판" image="pencil" catalog="system" badgeValue="알림갯수" id="1GJ-RA-Bhk"/>
+                    <tabBarItem key="tabBarItem" title="다줄톡" image="22" id="1GJ-RA-Bhk">
+                        <color key="badgeColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WOY-t7-suh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1148" y="400"/>
+            <point key="canvasLocation" x="1148" y="1152"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="f37-Wt-kfS">
@@ -154,8 +169,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="왁싱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDC-No-yMO">
-                                <rect key="frame" x="121" y="166" width="68" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="네일아트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDC-No-yMO">
+                                <rect key="frame" x="121" y="166" width="107" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -169,7 +184,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="awU-b6-fJ8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3207" y="-302"/>
+            <point key="canvasLocation" x="3205.5999999999999" y="-302.21674876847294"/>
         </scene>
         <!--홈-->
         <scene sceneID="ej4-co-Shs">
@@ -179,33 +194,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="다해줄게" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Hr-5j-jl5">
-                                <rect key="frame" x="145" y="44" width="84" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sRs-z8-mdf">
-                                <rect key="frame" x="237" y="36" width="122" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LJb-Z7-cht">
-                                <rect key="frame" x="0.0" y="80" width="375" height="649"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y5k-TO-KZS">
-                                        <rect key="frame" x="16" y="0.0" width="343" height="128"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="274"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="png1.png" translatesAutoresizingMaskIntoConstraints="NO" id="0z7-h3-Wud">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="128"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="274"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="HA8-9U-GYY">
-                                                <rect key="frame" x="152" y="101" width="39" height="37"/>
+                                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="HA8-9U-GYY">
+                                                <rect key="frame" x="8" y="229" width="359" height="37"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="currentPageIndicatorTintColor" red="1" green="0.43529411759999997" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
                                                     <action selector="PageControl:" destination="xBZ-fO-Ns8" eventType="valueChanged" id="6Zc-EA-s8d"/>
                                                 </connections>
@@ -214,83 +218,112 @@
                                         <viewLayoutGuide key="contentLayoutGuide" id="cT8-Eh-XFo"/>
                                         <viewLayoutGuide key="frameLayoutGuide" id="j24-ZM-CG6"/>
                                     </scrollView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jpg2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="drS-ep-YBN">
-                                        <rect key="frame" x="16" y="259" width="338" height="90"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4N-TJ-5sD">
-                                        <rect key="frame" x="16" y="149" width="60" height="60"/>
+                                        <rect key="frame" x="21" y="282" width="60" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES" image="YES"/>
                                         </accessibility>
-                                        <state key="normal" title="astatic_btn" image="esthetic.png"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <inset key="titleEdgeInsets" minX="-26" minY="0.0" maxX="0.0" maxY="-61"/>
+                                        <inset key="imageEdgeInsets" minX="17" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="에스태틱" image="371">
+                                            <color key="titleColor" red="0.396078431372549" green="0.396078431372549" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="astatic_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="kNB-AS-jTB"/>
-                                            <segue destination="nrp-yI-i9x" kind="show" id="LZl-Ts-WTJ"/>
+                                            <segue destination="nrp-yI-i9x" kind="show" id="2rx-dL-hdn"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yuk-oJ-8Tv">
-                                        <rect key="frame" x="84" y="149" width="60" height="60"/>
+                                        <rect key="frame" x="89" y="282" width="60" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES" image="YES"/>
                                         </accessibility>
-                                        <state key="normal" title="wax_btn" image="waxibgg.png"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <inset key="titleEdgeInsets" minX="-17" minY="0.0" maxX="0.0" maxY="-61"/>
+                                        <inset key="imageEdgeInsets" minX="17" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="네일" image="381">
+                                            <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="wax_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="OJE-E6-NBP"/>
-                                            <segue destination="H6F-Xf-Di4" kind="show" id="I6x-r9-wV2"/>
+                                            <segue destination="H6F-Xf-Di4" kind="show" id="1SH-6B-fcd"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDs-at-iZx">
-                                        <rect key="frame" x="158" y="149" width="60" height="60"/>
+                                        <rect key="frame" x="157" y="282" width="60" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES" image="YES"/>
                                         </accessibility>
-                                        <state key="normal" title="makeup_btn" image="makeup.png"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <inset key="titleEdgeInsets" minX="-31" minY="0.0" maxX="0.0" maxY="-61"/>
+                                        <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="왁싱" image="391">
+                                            <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="makeup_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="qpo-wk-SJ5"/>
-                                            <segue destination="cZj-7I-GIw" kind="show" id="gn6-mw-bcL"/>
+                                            <segue destination="cZj-7I-GIw" kind="show" id="NQT-Lw-lkJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHk-xz-IQC">
-                                        <rect key="frame" x="231" y="149" width="60" height="60"/>
+                                        <rect key="frame" x="225" y="282" width="60" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES" image="YES"/>
                                         </accessibility>
-                                        <state key="normal" title="in_btn" image="socknunssup.png"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <inset key="titleEdgeInsets" minX="-31" minY="0.0" maxX="0.0" maxY="-61"/>
+                                        <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="속눈썹" image="401">
+                                            <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="in_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="1qr-rF-gvY"/>
-                                            <segue destination="X1K-eF-gJi" kind="show" id="QO5-41-dCF"/>
+                                            <segue destination="X1K-eF-gJi" kind="show" id="msk-TK-TO1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVU-AY-DMy">
-                                        <rect key="frame" x="299" y="149" width="60" height="60"/>
+                                        <rect key="frame" x="293" y="282" width="60" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES" image="YES"/>
                                         </accessibility>
-                                        <state key="normal" title="nail_btn" image="nail.png"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <inset key="titleEdgeInsets" minX="-17" minY="0.0" maxX="0.0" maxY="-61"/>
+                                        <inset key="imageEdgeInsets" minX="23" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="메이크업" image="411">
+                                            <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="nail_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="UO7-Ar-5um"/>
-                                            <segue destination="Np8-DA-29f" kind="show" id="W6W-Sh-pLs"/>
+                                            <segue destination="Np8-DA-29f" kind="show" id="Ugv-KZ-stP"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="최근 본 목록" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ST3-XX-Kz7">
+                                        <rect key="frame" x="27" y="370" width="108" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8gD-2b-UA0">
-                                        <rect key="frame" x="0.0" y="378" width="375" height="49"/>
+                                        <rect key="frame" x="0.0" y="579" width="375" height="49"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <items>
-                                            <tabBarItem title="애스태틱" id="vdl-kQ-kp3">
+                                            <tabBarItem title="애스태틱" image="371" id="vdl-kQ-kp3">
                                                 <inset key="landscapeImageInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
                                             </tabBarItem>
-                                            <tabBarItem title="왁싱" id="lIX-Ex-BwK"/>
-                                            <tabBarItem title="메이크업" id="Lbn-Jd-RAD"/>
-                                            <tabBarItem title="반영구" id="DGR-mZ-TSt"/>
-                                            <tabBarItem title="네일" id="q11-az-Lsa"/>
+                                            <tabBarItem title="네일아트" image="381" id="lIX-Ex-BwK"/>
+                                            <tabBarItem title="왁싱" image="391" id="Lbn-Jd-RAD"/>
+                                            <tabBarItem title="속눈썹" image="401" id="DGR-mZ-TSt"/>
+                                            <tabBarItem title="메이크업" image="411" id="q11-az-Lsa"/>
                                         </items>
+                                        <color key="selectedImageTintColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tabBar>
                                 </subviews>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Ctl-CR-6Po"/>
@@ -300,9 +333,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="GEs-Ij-thK"/>
                     </view>
-                    <tabBarItem key="tabBarItem" tag="-14" title="홈" image="house" catalog="system" id="zNP-8r-UM0"/>
+                    <tabBarItem key="tabBarItem" tag="-14" title="홈" image="221" id="zNP-8r-UM0">
+                        <color key="badgeColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="fcS-PH-hEt"/>
                     <connections>
+                        <outlet property="homescrollview" destination="LJb-Z7-cht" id="cmB-Dx-rwG"/>
                         <outlet property="imgView" destination="0z7-h3-Wud" id="5Rv-AJ-KNT"/>
                         <outlet property="pageControl" destination="HA8-9U-GYY" id="fHJ-Qn-Hs0"/>
                         <outlet property="scrollview" destination="Y5k-TO-KZS" id="bqM-Kb-V2d"/>
@@ -312,7 +348,7 @@
             </objects>
             <point key="canvasLocation" x="1148" y="-302.21674876847294"/>
         </scene>
-        <!--다줄톡-->
+        <!--채팅창-->
         <scene sceneID="6hy-iL-sZ9">
             <objects>
                 <viewController id="hs0-7T-bI0" sceneMemberID="viewController">
@@ -320,10 +356,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OG5-Je-Wxi">
-                                <rect key="frame" x="118" y="319" width="68" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTw-3i-sAU">
+                                <rect key="frame" x="158" y="190" width="29" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -331,11 +367,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="98S-sK-tUe"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="다줄톡" image="pencil.circle.fill" catalog="system" badgeValue="알림갯수" id="zbf-r6-IP7"/>
+                    <tabBarItem key="tabBarItem" title="채팅창" image="18" id="zbf-r6-IP7">
+                        <color key="badgeColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="htb-Ld-1bx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1148" y="1900"/>
+            <point key="canvasLocation" x="1148" y="1899.7536945812808"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4qF-Z5-Wi0">
@@ -345,7 +383,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="메이크업" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Jr-tk-Pmf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="왁싱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Jr-tk-Pmf">
                                 <rect key="frame" x="183" y="254" width="92" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -395,8 +433,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="네일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F81-bV-7xu">
-                                <rect key="frame" x="175" y="236" width="68" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="메이크업" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F81-bV-7xu">
+                                <rect key="frame" x="175" y="236" width="97" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -410,7 +448,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BCZ-cX-k9J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5983" y="-302"/>
+            <point key="canvasLocation" x="5981.6000000000004" y="-302.21674876847294"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="vOX-Kb-BPf">
@@ -420,14 +458,14 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5lk-ad-RYU">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="selectedImageTintColor" red="1" green="0.097522474319999997" blue="0.3325822839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="xBZ-fO-Ns8" kind="relationship" relationship="viewControllers" id="WL7-lV-mlf"/>
-                        <segue destination="hs0-7T-bI0" kind="relationship" relationship="viewControllers" id="fLA-w3-26D"/>
-                        <segue destination="1dM-yi-6Qf" kind="relationship" relationship="viewControllers" id="DwD-NI-GFu"/>
-                        <segue destination="YsI-DL-vsZ" kind="relationship" relationship="viewControllers" id="tSw-PO-tys"/>
-                        <segue destination="fGT-9h-ZWh" kind="relationship" relationship="viewControllers" id="ymy-Qm-TUM"/>
+                        <segue destination="YsI-DL-vsZ" kind="relationship" relationship="viewControllers" id="bmM-NS-dcO"/>
+                        <segue destination="1dM-yi-6Qf" kind="relationship" relationship="viewControllers" id="bWQ-tV-Frf"/>
+                        <segue destination="hs0-7T-bI0" kind="relationship" relationship="viewControllers" id="cU2-17-xC7"/>
+                        <segue destination="fGT-9h-ZWh" kind="relationship" relationship="viewControllers" id="t9r-o1-roW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KWI-rw-gTJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -436,19 +474,19 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Otz-Zk-rP7"/>
+        <segue reference="t9r-o1-roW"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="esthetic.png" width="561" height="669"/>
-        <image name="house" catalog="system" width="128" height="110"/>
-        <image name="jpg2.jpg" width="1280" height="720"/>
-        <image name="location.fill" catalog="system" width="128" height="115"/>
-        <image name="makeup.png" width="561" height="669"/>
-        <image name="nail.png" width="561" height="669"/>
-        <image name="pencil" catalog="system" width="128" height="113"/>
-        <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="18" width="21" height="19.666666030883789"/>
+        <image name="211" width="15" height="19.666666030883789"/>
+        <image name="22" width="17" height="20.333333969116211"/>
+        <image name="221" width="20.333333969116211" height="21.333333969116211"/>
+        <image name="29" width="15.333333015441895" height="22.333333969116211"/>
+        <image name="371" width="27.333333969116211" height="34.666667938232422"/>
+        <image name="381" width="19.333333969116211" height="35.333332061767578"/>
+        <image name="391" width="30" height="36.666667938232422"/>
+        <image name="401" width="28" height="15.666666984558105"/>
+        <image name="411" width="15.666666984558105" height="33"/>
         <image name="png1.png" width="1280" height="720"/>
-        <image name="socknunssup.png" width="561" height="669"/>
-        <image name="waxibgg.png" width="561" height="669"/>
     </resources>
 </document>

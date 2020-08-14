@@ -64,7 +64,7 @@ class CustomMenuBar: UIView {
         customTabBarCollectionView.heightAnchor.constraint(equalToConstant: 55).isActive = true
         
         self.addSubview(indicatorView)
-        indicatorViewWidthConstraint = indicatorView.widthAnchor.constraint(equalToConstant: self.frame.width / 5)
+        indicatorViewWidthConstraint = indicatorView.widthAnchor.constraint(equalToConstant: self.frame.width / 4)
         indicatorViewWidthConstraint.isActive = true
         indicatorView.heightAnchor.constraint(equalToConstant: 5).isActive = true
         indicatorViewLeadingConstraint = indicatorView.leadingAnchor.constraint(equalTo: self.leadingAnchor)
