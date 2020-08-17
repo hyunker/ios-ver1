@@ -17,7 +17,10 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet var imgView: UIImageView!
     @IBOutlet var pageControl: UIPageControl!
     @IBOutlet var scrollview: UIScrollView!
-    @IBAction func astatic_btn(_ sender: Any) {
+    @IBAction func astatic_btn(_ sender: Any) { guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "AstaticController") else{
+        return}
+        uvc.modalTransitionStyle = UIModalTransitionStyle.coverVertical
+        self.present(uvc, animated: true)
     }
     @IBAction func wax_btn(_ sender: Any) {
     }

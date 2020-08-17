@@ -1,5 +1,5 @@
 //
-//  DetailController.swift
+//  AstaticController.swift
 //  Helloworld
 //
 //  Created by Macbook Air on 2020/08/17.
@@ -7,14 +7,13 @@
 //
 
 import UIKit
-class DetailControlloer : UIViewController {
 
+class AstaticControlloer : UIViewController {
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
 }
+

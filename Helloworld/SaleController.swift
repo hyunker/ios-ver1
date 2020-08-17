@@ -11,12 +11,11 @@ import UIKit
 class SaleControlloer : UIViewController {
     
     
-    @IBAction func click_mov(_ sender: Any) {
-    
-        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "DetailControlloer"){
-            self.navigationController?.pushViewController(controller, animated: true)
-        }
-        
+    @IBAction func click_mov(_ sender: Any) { guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "DetailController") else{
+        return}
+        uvc.modalTransitionStyle = UIModalTransitionStyle.coverVertical
+        self.present(uvc, animated: true)
+
     }
     override func viewDidLoad() {
         super.viewDidLoad()

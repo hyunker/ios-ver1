@@ -1,5 +1,5 @@
 //
-//  DetailController.swift
+//  UILayoutGuide.swift
 //  Helloworld
 //
 //  Created by Macbook Air on 2020/08/17.
@@ -7,14 +7,12 @@
 //
 
 import UIKit
-class DetailControlloer : UIViewController {
-
+class UILayoutGuide : UIViewController {
+     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    var frameLayoutGuide:  UILayoutGuide get
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
 }
