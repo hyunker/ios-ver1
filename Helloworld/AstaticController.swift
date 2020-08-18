@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AstaticControlloer : UIViewController {
+class AstaticController : UIViewController {
     
     
     override func viewDidLoad() {
