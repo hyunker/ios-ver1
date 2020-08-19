@@ -169,150 +169,161 @@
                 <viewController id="xBZ-fO-Ns8" customClass="ViewController" customModule="Helloworld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="li6-fh-78D">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LJb-Z7-cht">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJb-Z7-cht">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qu6-4b-Cpl">
-                                        <rect key="frame" x="-20" y="-108" width="415" height="852"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY2-cq-d2o">
+                                        <rect key="frame" x="0.0" y="-44" width="375" height="812"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hY2-cq-d2o">
-                                                <rect key="frame" x="20" y="20" width="375" height="812"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4N-TJ-5sD">
+                                                <rect key="frame" x="17" y="282" width="60" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                </accessibility>
+                                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                                <inset key="titleEdgeInsets" minX="-26" minY="0.0" maxX="0.0" maxY="-61"/>
+                                                <inset key="imageEdgeInsets" minX="17" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="에스태틱" image="371">
+                                                    <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="astatic_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="kNB-AS-jTB"/>
+                                                    <segue destination="nrp-yI-i9x" kind="show" id="Yel-cf-4eQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yuk-oJ-8Tv">
+                                                <rect key="frame" x="85" y="282" width="60" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                </accessibility>
+                                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                                <inset key="titleEdgeInsets" minX="-17" minY="0.0" maxX="0.0" maxY="-61"/>
+                                                <inset key="imageEdgeInsets" minX="17" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="네일" image="381">
+                                                    <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="wax_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="OJE-E6-NBP"/>
+                                                    <segue destination="H6F-Xf-Di4" kind="show" id="1SH-6B-fcd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDs-at-iZx">
+                                                <rect key="frame" x="157" y="282" width="60" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                </accessibility>
+                                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                                <inset key="titleEdgeInsets" minX="-31" minY="0.0" maxX="0.0" maxY="-61"/>
+                                                <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="왁싱" image="391">
+                                                    <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="makeup_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="qpo-wk-SJ5"/>
+                                                    <segue destination="cZj-7I-GIw" kind="show" id="NQT-Lw-lkJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHk-xz-IQC">
+                                                <rect key="frame" x="231" y="282" width="60" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                </accessibility>
+                                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                                <inset key="titleEdgeInsets" minX="-31" minY="0.0" maxX="0.0" maxY="-61"/>
+                                                <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="속눈썹" image="401">
+                                                    <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="in_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="1qr-rF-gvY"/>
+                                                    <segue destination="X1K-eF-gJi" kind="show" id="msk-TK-TO1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVU-AY-DMy">
+                                                <rect key="frame" x="299" y="282" width="60" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                </accessibility>
+                                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                                <inset key="titleEdgeInsets" minX="-17" minY="0.0" maxX="0.0" maxY="-61"/>
+                                                <inset key="imageEdgeInsets" minX="23" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="메이크업" image="411">
+                                                    <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="nail_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="UO7-Ar-5um"/>
+                                                    <segue destination="Np8-DA-29f" kind="show" id="Ugv-KZ-stP"/>
+                                                </connections>
+                                            </button>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y5k-TO-KZS">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="274"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4N-TJ-5sD">
-                                                        <rect key="frame" x="17" y="282" width="60" height="70"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" button="YES" image="YES"/>
-                                                        </accessibility>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                        <inset key="titleEdgeInsets" minX="-26" minY="0.0" maxX="0.0" maxY="-61"/>
-                                                        <inset key="imageEdgeInsets" minX="17" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <state key="normal" title="에스태틱" image="371">
-                                                            <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="astatic_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="kNB-AS-jTB"/>
-                                                            <segue destination="nrp-yI-i9x" kind="show" id="3la-Sm-JfO"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yuk-oJ-8Tv">
-                                                        <rect key="frame" x="85" y="282" width="60" height="70"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" button="YES" image="YES"/>
-                                                        </accessibility>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                        <inset key="titleEdgeInsets" minX="-17" minY="0.0" maxX="0.0" maxY="-61"/>
-                                                        <inset key="imageEdgeInsets" minX="17" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <state key="normal" title="네일" image="381">
-                                                            <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="wax_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="OJE-E6-NBP"/>
-                                                            <segue destination="H6F-Xf-Di4" kind="show" id="1SH-6B-fcd"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDs-at-iZx">
-                                                        <rect key="frame" x="157" y="282" width="60" height="70"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" button="YES" image="YES"/>
-                                                        </accessibility>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                        <inset key="titleEdgeInsets" minX="-31" minY="0.0" maxX="0.0" maxY="-61"/>
-                                                        <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <state key="normal" title="왁싱" image="391">
-                                                            <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="makeup_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="qpo-wk-SJ5"/>
-                                                            <segue destination="cZj-7I-GIw" kind="show" id="NQT-Lw-lkJ"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHk-xz-IQC">
-                                                        <rect key="frame" x="231" y="282" width="60" height="70"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" button="YES" image="YES"/>
-                                                        </accessibility>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                        <inset key="titleEdgeInsets" minX="-31" minY="0.0" maxX="0.0" maxY="-61"/>
-                                                        <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <state key="normal" title="속눈썹" image="401">
-                                                            <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="in_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="1qr-rF-gvY"/>
-                                                            <segue destination="X1K-eF-gJi" kind="show" id="msk-TK-TO1"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVU-AY-DMy">
-                                                        <rect key="frame" x="299" y="282" width="60" height="70"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" button="YES" image="YES"/>
-                                                        </accessibility>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                        <inset key="titleEdgeInsets" minX="-17" minY="0.0" maxX="0.0" maxY="-61"/>
-                                                        <inset key="imageEdgeInsets" minX="23" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <state key="normal" title="메이크업" image="411">
-                                                            <color key="titleColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="nail_btn:" destination="xBZ-fO-Ns8" eventType="touchUpInside" id="UO7-Ar-5um"/>
-                                                            <segue destination="Np8-DA-29f" kind="show" id="Ugv-KZ-stP"/>
-                                                        </connections>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="최근 본 목록" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ST3-XX-Kz7">
-                                                        <rect key="frame" x="27" y="370" width="108" height="29"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                        <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y5k-TO-KZS">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="png1.png" translatesAutoresizingMaskIntoConstraints="NO" id="0z7-h3-Wud">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="274"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="png1.png" translatesAutoresizingMaskIntoConstraints="NO" id="0z7-h3-Wud">
-                                                                <rect key="frame" x="0.0" y="0.0" width="375" height="274"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            </imageView>
-                                                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="HA8-9U-GYY">
-                                                                <rect key="frame" x="8" y="229" width="359" height="37"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <color key="currentPageIndicatorTintColor" red="1" green="0.43529411759999997" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <connections>
-                                                                    <action selector="PageControl:" destination="xBZ-fO-Ns8" eventType="valueChanged" id="6Zc-EA-s8d"/>
-                                                                </connections>
-                                                            </pageControl>
-                                                        </subviews>
-                                                        <viewLayoutGuide key="contentLayoutGuide" id="cT8-Eh-XFo"/>
-                                                        <viewLayoutGuide key="frameLayoutGuide" id="j24-ZM-CG6"/>
-                                                    </scrollView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="추천 스타일" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgP-xH-XCP">
-                                                        <rect key="frame" x="27" y="630" width="91" height="24"/>
+                                                    </imageView>
+                                                    <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="HA8-9U-GYY">
+                                                        <rect key="frame" x="8" y="229" width="359" height="37"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                        <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
+                                                        <color key="currentPageIndicatorTintColor" red="1" green="0.43529411759999997" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <connections>
+                                                            <action selector="PageControl:" destination="xBZ-fO-Ns8" eventType="valueChanged" id="6Zc-EA-s8d"/>
+                                                        </connections>
+                                                    </pageControl>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                            </view>
+                                                <viewLayoutGuide key="contentLayoutGuide" id="cT8-Eh-XFo"/>
+                                                <viewLayoutGuide key="frameLayoutGuide" id="j24-ZM-CG6"/>
+                                            </scrollView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="최근 본 목록" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ST3-XX-Kz7">
+                                                <rect key="frame" x="27" y="370" width="108" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="추천 스타일" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgP-xH-XCP">
+                                                <rect key="frame" x="27" y="630" width="91" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="내주변 추천 디자이너" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="989-uP-RrG">
+                                                <rect key="frame" x="27" y="780" width="165" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
-                                        <viewLayoutGuide key="contentLayoutGuide" id="I9Y-r0-1LV"/>
-                                        <viewLayoutGuide key="frameLayoutGuide" id="GC7-eh-jDf"/>
-                                    </scrollView>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="hY2-cq-d2o" secondAttribute="bottom" id="3LT-Nl-WOJ"/>
+                                    <constraint firstItem="hY2-cq-d2o" firstAttribute="centerY" secondItem="LJb-Z7-cht" secondAttribute="centerY" id="4tJ-Vb-e9M"/>
+                                    <constraint firstItem="hY2-cq-d2o" firstAttribute="centerX" secondItem="LJb-Z7-cht" secondAttribute="centerX" id="6Lw-yM-AOF"/>
+                                    <constraint firstItem="hY2-cq-d2o" firstAttribute="width" secondItem="LJb-Z7-cht" secondAttribute="width" id="RbZ-5f-onJ"/>
+                                    <constraint firstItem="hY2-cq-d2o" firstAttribute="leading" secondItem="LJb-Z7-cht" secondAttribute="leading" id="g1D-oK-3LE"/>
+                                    <constraint firstItem="hY2-cq-d2o" firstAttribute="top" secondItem="LJb-Z7-cht" secondAttribute="top" id="sKc-Gt-cd3"/>
+                                    <constraint firstAttribute="trailing" secondItem="hY2-cq-d2o" secondAttribute="trailing" id="spQ-32-jpf"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="LJb-Z7-cht" secondAttribute="bottom" id="2Ta-Iz-Tkw"/>
+                            <constraint firstItem="LJb-Z7-cht" firstAttribute="top" secondItem="li6-fh-78D" secondAttribute="top" id="4Wz-qN-S0z"/>
+                            <constraint firstItem="LJb-Z7-cht" firstAttribute="leading" secondItem="GEs-Ij-thK" secondAttribute="leading" id="I6m-2D-UBE"/>
+                            <constraint firstItem="LJb-Z7-cht" firstAttribute="trailing" secondItem="GEs-Ij-thK" secondAttribute="trailing" id="zHG-zj-A2s"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="GEs-Ij-thK"/>
                     </view>
                     <navigationItem key="navigationItem" id="1mk-4Z-Qkl"/>
@@ -452,16 +463,18 @@
         <!--홈-->
         <scene sceneID="7ZW-iE-Gis">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dvs-iX-Gdj" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="dvs-iX-Gdj" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="-14" title="홈" image="221" id="zNP-8r-UM0">
                         <color key="badgeColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wSy-zB-ehJ">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kG2-SM-Axp">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="xBZ-fO-Ns8" kind="relationship" relationship="rootViewController" id="NYg-Jv-Jwj"/>
                     </connections>
@@ -473,13 +486,12 @@
         <!--다줄샵-->
         <scene sceneID="S6e-Vh-5ep">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7go-c6-5pm" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="7go-c6-5pm" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="다줄샵" image="211" id="JCm-9q-usB">
                         <color key="badgeColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lzT-cT-uRo">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -494,13 +506,12 @@
         <!--내주변-->
         <scene sceneID="I1O-sl-lNL">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="l2y-Fl-GDC" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="l2y-Fl-GDC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="내주변" image="29" id="kw6-vQ-7pC">
                         <color key="badgeColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="466-dX-li1">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -515,13 +526,12 @@
         <!--다줄톡-->
         <scene sceneID="xbd-At-2BB">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Brs-3U-37e" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Brs-3U-37e" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="다줄톡" image="22" id="1GJ-RA-Bhk">
                         <color key="badgeColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bec-2F-tQb">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -536,13 +546,12 @@
         <!--채팅창-->
         <scene sceneID="QBj-7Z-pFu">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LMH-Nn-WE7" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="LMH-Nn-WE7" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="채팅창" image="18" id="zbf-r6-IP7">
                         <color key="badgeColor" red="1" green="0.43529411764705883" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lhw-Z6-Qus">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

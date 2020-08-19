@@ -33,6 +33,10 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // 뒤로가기 제스쳐
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
+
         // Do any additional setup after loading the view.
         pageControl.numberOfPages = images.count
         pageControl.currentPage = 0
