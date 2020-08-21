@@ -8,11 +8,13 @@
 
 import UIKit
 
-class BoardControlloer : UIViewController {
+class BoardControlloer : UIViewController, UIGestureRecognizerDelegate {
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        // 뒤로가기 제스쳐
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
     }
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SaleControlloer : UIViewController {
+class SaleControlloer : UIViewController, UIGestureRecognizerDelegate {
     
     
     @IBAction func click_mov(_ sender: Any) {
@@ -16,5 +16,7 @@ class SaleControlloer : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        // 뒤로가기 제스쳐
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
     }
 }

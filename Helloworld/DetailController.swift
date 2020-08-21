@@ -7,11 +7,13 @@
 //
 
 import UIKit
-class DetailControlloer : UIViewController {
+class DetailControlloer : UIViewController, UIGestureRecognizerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        // 뒤로가기 제스쳐
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
     }
     
     override func didReceiveMemoryWarning() {

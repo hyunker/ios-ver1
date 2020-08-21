@@ -25,7 +25,6 @@
 		04F0F56224E3DF9200ECF761 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56124E3DF9200ECF761 /* LocationController.swift */; };
 		04F0F56424E3DFE700ECF761 /* SaleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56324E3DFE700ECF761 /* SaleController.swift */; };
 		04F0F56624E3E03B00ECF761 /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56524E3E03B00ECF761 /* BoardController.swift */; };
-		04FEA7A224ED6D5100A89E57 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEA7A124ED6D5100A89E57 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +48,6 @@
 		04F0F56124E3DF9200ECF761 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
 		04F0F56324E3DFE700ECF761 /* SaleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleController.swift; sourceTree = "<group>"; };
 		04F0F56524E3E03B00ECF761 /* BoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardController.swift; sourceTree = "<group>"; };
-		04FEA7A124ED6D5100A89E57 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +84,6 @@
 				04559C7624D7FF9000BBF9C0 /* AppDelegate.swift */,
 				04559C7824D7FF9000BBF9C0 /* SceneDelegate.swift */,
 				04559C7A24D7FF9000BBF9C0 /* ViewController.swift */,
-				04FEA7A124ED6D5100A89E57 /* HomeController.swift */,
 				04F0F55F24E3DF6800ECF761 /* TalkController.swift */,
 				04F0F56524E3E03B00ECF761 /* BoardController.swift */,
 				04F0F56124E3DF9200ECF761 /* LocationController.swift */,
@@ -184,7 +181,6 @@
 			files = (
 				04F0F56224E3DF9200ECF761 /* LocationController.swift in Sources */,
 				04559C7B24D7FF9000BBF9C0 /* ViewController.swift in Sources */,
-				04FEA7A224ED6D5100A89E57 /* HomeController.swift in Sources */,
 				04F0F56024E3DF6800ECF761 /* TalkController.swift in Sources */,
 				0440967224D82CE7006CBFBD /* ButtonController.swift in Sources */,
 				04F0F56624E3E03B00ECF761 /* BoardController.swift in Sources */,

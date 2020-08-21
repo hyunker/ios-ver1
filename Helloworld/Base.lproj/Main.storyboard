@@ -170,11 +170,11 @@
                     <view key="view" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="li6-fh-78D">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJb-Z7-cht">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJb-Z7-cht">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY2-cq-d2o">
-                                        <rect key="frame" x="0.0" y="-44" width="375" height="812"/>
+                                    <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY2-cq-d2o">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4N-TJ-5sD">
                                                 <rect key="frame" x="17" y="282" width="60" height="70"/>
@@ -194,7 +194,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yuk-oJ-8Tv">
-                                                <rect key="frame" x="85" y="282" width="60" height="70"/>
+                                                <rect key="frame" x="89" y="282" width="60" height="70"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
@@ -228,7 +228,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHk-xz-IQC">
-                                                <rect key="frame" x="231" y="282" width="60" height="70"/>
+                                                <rect key="frame" x="225" y="282" width="60" height="70"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
@@ -245,7 +245,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVU-AY-DMy">
-                                                <rect key="frame" x="299" y="282" width="60" height="70"/>
+                                                <rect key="frame" x="293" y="282" width="60" height="70"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
@@ -261,28 +261,20 @@
                                                     <segue destination="Np8-DA-29f" kind="show" id="Ugv-KZ-stP"/>
                                                 </connections>
                                             </button>
-                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y5k-TO-KZS">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="274"/>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" pagingEnabled="YES" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5k-TO-KZS">
+                                                <rect key="frame" x="0.0" y="-48" width="375" height="322"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="png1.png" translatesAutoresizingMaskIntoConstraints="NO" id="0z7-h3-Wud">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="274"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
                                                     <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="HA8-9U-GYY">
-                                                        <rect key="frame" x="8" y="229" width="359" height="37"/>
+                                                        <rect key="frame" x="8" y="273" width="359" height="37"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="currentPageIndicatorTintColor" red="1" green="0.43529411759999997" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <connections>
-                                                            <action selector="PageControl:" destination="xBZ-fO-Ns8" eventType="valueChanged" id="6Zc-EA-s8d"/>
-                                                        </connections>
                                                     </pageControl>
                                                 </subviews>
                                                 <viewLayoutGuide key="contentLayoutGuide" id="cT8-Eh-XFo"/>
                                                 <viewLayoutGuide key="frameLayoutGuide" id="j24-ZM-CG6"/>
                                             </scrollView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="최근 본 목록" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ST3-XX-Kz7">
-                                                <rect key="frame" x="27" y="370" width="108" height="29"/>
+                                                <rect key="frame" x="27" y="370" width="108" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -329,8 +321,7 @@
                     <navigationItem key="navigationItem" id="1mk-4Z-Qkl"/>
                     <connections>
                         <outlet property="homescrollview" destination="LJb-Z7-cht" id="cmB-Dx-rwG"/>
-                        <outlet property="imgView" destination="0z7-h3-Wud" id="5Rv-AJ-KNT"/>
-                        <outlet property="pageControl" destination="HA8-9U-GYY" id="fHJ-Qn-Hs0"/>
+                        <outlet property="pagecontrol" destination="HA8-9U-GYY" id="q9N-wS-TXn"/>
                         <outlet property="scrollview" destination="Y5k-TO-KZS" id="bqM-Kb-V2d"/>
                     </connections>
                 </viewController>
@@ -575,6 +566,5 @@
         <image name="391" width="30" height="36.666667938232422"/>
         <image name="401" width="28" height="15.666666984558105"/>
         <image name="411" width="15.666666984558105" height="33"/>
-        <image name="png1.png" width="1280" height="720"/>
     </resources>
 </document>
