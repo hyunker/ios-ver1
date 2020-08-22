@@ -173,8 +173,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJb-Z7-cht">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY2-cq-d2o">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY2-cq-d2o">
+                                        <rect key="frame" x="0.0" y="-50" width="375" height="2212"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4N-TJ-5sD">
                                                 <rect key="frame" x="17" y="282" width="60" height="70"/>
@@ -288,17 +288,35 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="내주변 추천 디자이너" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="989-uP-RrG">
-                                                <rect key="frame" x="27" y="780" width="165" height="24"/>
+                                                <rect key="frame" x="27" y="870" width="165" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cBA-Pv-ckd">
+                                                <rect key="frame" x="0.0" y="906" width="375" height="49"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <items>
+                                                    <tabBarItem title="에스태틱" id="PUf-zO-brt"/>
+                                                    <tabBarItem title="네일" id="2CP-lQ-Yvc"/>
+                                                    <tabBarItem title="왁싱" id="nF3-9Y-3iU"/>
+                                                    <tabBarItem title="속눈썹" id="Y1o-gL-Pqh"/>
+                                                    <tabBarItem title="메이크업" id="d4f-hS-u6X"/>
+                                                </items>
+                                            </tabBar>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JvJ-Gb-vWB">
+                                                <rect key="frame" x="71" y="960" width="232" height="380"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="hY2-cq-d2o" firstAttribute="height" secondItem="LJb-Z7-cht" secondAttribute="height" constant="550" id="186-6O-6g0"/>
                                     <constraint firstAttribute="bottom" secondItem="hY2-cq-d2o" secondAttribute="bottom" id="3LT-Nl-WOJ"/>
                                     <constraint firstItem="hY2-cq-d2o" firstAttribute="centerY" secondItem="LJb-Z7-cht" secondAttribute="centerY" id="4tJ-Vb-e9M"/>
                                     <constraint firstItem="hY2-cq-d2o" firstAttribute="centerX" secondItem="LJb-Z7-cht" secondAttribute="centerX" id="6Lw-yM-AOF"/>
@@ -319,6 +337,7 @@
                         <viewLayoutGuide key="safeArea" id="GEs-Ij-thK"/>
                     </view>
                     <navigationItem key="navigationItem" id="1mk-4Z-Qkl"/>
+                    <size key="freeformSize" width="375" height="812"/>
                     <connections>
                         <outlet property="homescrollview" destination="LJb-Z7-cht" id="cmB-Dx-rwG"/>
                         <outlet property="pagecontrol" destination="HA8-9U-GYY" id="q9N-wS-TXn"/>
