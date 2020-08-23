@@ -174,7 +174,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY2-cq-d2o">
-                                        <rect key="frame" x="0.0" y="-50" width="375" height="2212"/>
+                                        <rect key="frame" x="0.0" y="-50" width="375" height="1495"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4N-TJ-5sD">
                                                 <rect key="frame" x="17" y="282" width="60" height="70"/>
@@ -262,7 +262,7 @@
                                                 </connections>
                                             </button>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" pagingEnabled="YES" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5k-TO-KZS">
-                                                <rect key="frame" x="0.0" y="-48" width="375" height="322"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="274"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="HA8-9U-GYY">
@@ -296,7 +296,7 @@
                                             </label>
                                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cBA-Pv-ckd">
                                                 <rect key="frame" x="0.0" y="906" width="375" height="49"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <items>
                                                     <tabBarItem title="에스태틱" id="PUf-zO-brt"/>
@@ -306,11 +306,6 @@
                                                     <tabBarItem title="메이크업" id="d4f-hS-u6X"/>
                                                 </items>
                                             </tabBar>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JvJ-Gb-vWB">
-                                                <rect key="frame" x="71" y="960" width="232" height="380"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="1" green="0.0" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
@@ -318,7 +313,6 @@
                                 <constraints>
                                     <constraint firstItem="hY2-cq-d2o" firstAttribute="height" secondItem="LJb-Z7-cht" secondAttribute="height" constant="550" id="186-6O-6g0"/>
                                     <constraint firstAttribute="bottom" secondItem="hY2-cq-d2o" secondAttribute="bottom" id="3LT-Nl-WOJ"/>
-                                    <constraint firstItem="hY2-cq-d2o" firstAttribute="centerY" secondItem="LJb-Z7-cht" secondAttribute="centerY" id="4tJ-Vb-e9M"/>
                                     <constraint firstItem="hY2-cq-d2o" firstAttribute="centerX" secondItem="LJb-Z7-cht" secondAttribute="centerX" id="6Lw-yM-AOF"/>
                                     <constraint firstItem="hY2-cq-d2o" firstAttribute="width" secondItem="LJb-Z7-cht" secondAttribute="width" id="RbZ-5f-onJ"/>
                                     <constraint firstItem="hY2-cq-d2o" firstAttribute="leading" secondItem="LJb-Z7-cht" secondAttribute="leading" id="g1D-oK-3LE"/>
@@ -337,7 +331,6 @@
                         <viewLayoutGuide key="safeArea" id="GEs-Ij-thK"/>
                     </view>
                     <navigationItem key="navigationItem" id="1mk-4Z-Qkl"/>
-                    <size key="freeformSize" width="375" height="812"/>
                     <connections>
                         <outlet property="homescrollview" destination="LJb-Z7-cht" id="cmB-Dx-rwG"/>
                         <outlet property="pagecontrol" destination="HA8-9U-GYY" id="q9N-wS-TXn"/>
