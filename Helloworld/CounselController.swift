@@ -1,5 +1,5 @@
 //
-//  SaleController.swift
+//  BoardController.swift
 //  Helloworld
 //
 //  Created by Macbook Air on 2020/08/12.
@@ -8,11 +8,10 @@
 
 import UIKit
 
-class SaleControlloer : UIViewController, UIGestureRecognizerDelegate {
+class CounselControlloer : UIViewController, UIGestureRecognizerDelegate {
     
+    @IBOutlet weak var CounselTable: UITableView!
     
-    @IBAction func click_mov(_ sender: Any) {
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

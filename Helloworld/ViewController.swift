@@ -34,8 +34,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, UIScrollVie
         
         // 뒤로가기 제스쳐
         self.navigationController?.interactivePopGestureRecognizer?.delegate = self
-        
-        super.viewDidLoad()
+
             scrollview.delegate = self
             pagecontrol.numberOfPages = images.count
             pagecontrol.currentPage = 0

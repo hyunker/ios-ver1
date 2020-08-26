@@ -1,5 +1,5 @@
 //
-//  BoardController.swift
+//  SaleController.swift
 //  Helloworld
 //
 //  Created by Macbook Air on 2020/08/12.
@@ -8,9 +8,11 @@
 
 import UIKit
 
-class BoardControlloer : UIViewController, UIGestureRecognizerDelegate {
+class SettingControlloer : UIViewController, UIGestureRecognizerDelegate {
     
     
+    @IBAction func click_mov(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
