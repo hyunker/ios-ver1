@@ -12,15 +12,13 @@
 		0449725B24EA72E900720E67 /* SFUIDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0449725924EA72E900720E67 /* SFUIDisplay-Semibold.ttf */; };
 		0449726124EA84D500720E67 /* AstaticController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449726024EA84D500720E67 /* AstaticController.swift */; };
 		0449726324EA8F8700720E67 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449726224EA8F8700720E67 /* DetailController.swift */; };
+		044A094624F8033D009EC434 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 044A094524F8033D009EC434 /* GoogleService-Info.plist */; };
 		04559C7724D7FF9000BBF9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04559C7624D7FF9000BBF9C0 /* AppDelegate.swift */; };
 		04559C7924D7FF9000BBF9C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04559C7824D7FF9000BBF9C0 /* SceneDelegate.swift */; };
 		04559C7B24D7FF9000BBF9C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04559C7A24D7FF9000BBF9C0 /* ViewController.swift */; };
 		04559C7E24D7FF9000BBF9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04559C7C24D7FF9000BBF9C0 /* Main.storyboard */; };
 		04559C8024D7FF9100BBF9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04559C7F24D7FF9100BBF9C0 /* Assets.xcassets */; };
-		0469867324E6DFFB008CD141 /* invalidName.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0469867224E6DFFB008CD141 /* invalidName.jpg */; };
 		04D694A424DA9EAD0045B9BB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D694A324DA9EAD0045B9BB /* Launch Screen.storyboard */; };
-		04D694A824DAFA290045B9BB /* jpg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D694A724DAFA280045B9BB /* jpg2.jpg */; };
-		04EE798424DD3490008894B4 /* png1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EE798324DD3490008894B4 /* png1.png */; };
 		04F0F56024E3DF6800ECF761 /* TalkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F55F24E3DF6800ECF761 /* TalkController.swift */; };
 		04F0F56224E3DF9200ECF761 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56124E3DF9200ECF761 /* LocationController.swift */; };
 		04F0F56424E3DFE700ECF761 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56324E3DFE700ECF761 /* SettingController.swift */; };
@@ -33,6 +31,7 @@
 		0449725924EA72E900720E67 /* SFUIDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIDisplay-Semibold.ttf"; path = "../../../Downloads/iphone font/SFUIDisplay-Semibold.ttf"; sourceTree = "<group>"; };
 		0449726024EA84D500720E67 /* AstaticController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstaticController.swift; sourceTree = "<group>"; };
 		0449726224EA8F8700720E67 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		044A094524F8033D009EC434 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04559C7324D7FF9000BBF9C0 /* Helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04559C7624D7FF9000BBF9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04559C7824D7FF9000BBF9C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,10 +39,7 @@
 		04559C7D24D7FF9000BBF9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04559C7F24D7FF9100BBF9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04559C8424D7FF9100BBF9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0469867224E6DFFB008CD141 /* invalidName.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = invalidName.jpg; path = ../../../Downloads/icon/invalidName.jpg; sourceTree = "<group>"; };
 		04D694A324DA9EAD0045B9BB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		04D694A724DAFA280045B9BB /* jpg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jpg2.jpg; path = ../../../Downloads/Logo/jpg2.jpg; sourceTree = "<group>"; };
-		04EE798324DD3490008894B4 /* png1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = png1.png; path = ../../../Downloads/png1.png; sourceTree = "<group>"; };
 		04F0F55F24E3DF6800ECF761 /* TalkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkController.swift; sourceTree = "<group>"; };
 		04F0F56124E3DF9200ECF761 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
 		04F0F56324E3DFE700ECF761 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
@@ -95,9 +91,7 @@
 				04D694A324DA9EAD0045B9BB /* Launch Screen.storyboard */,
 				0449725824EA72E900720E67 /* SFUIDisplay-Medium.ttf */,
 				0449725924EA72E900720E67 /* SFUIDisplay-Semibold.ttf */,
-				04D694A724DAFA280045B9BB /* jpg2.jpg */,
-				04EE798324DD3490008894B4 /* png1.png */,
-				0469867224E6DFFB008CD141 /* invalidName.jpg */,
+				044A094524F8033D009EC434 /* GoogleService-Info.plist */,
 				04559C8424D7FF9100BBF9C0 /* Info.plist */,
 			);
 			path = Helloworld;
@@ -161,14 +155,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0469867324E6DFFB008CD141 /* invalidName.jpg in Resources */,
 				04D694A424DA9EAD0045B9BB /* Launch Screen.storyboard in Resources */,
-				04D694A824DAFA290045B9BB /* jpg2.jpg in Resources */,
 				04559C8024D7FF9100BBF9C0 /* Assets.xcassets in Resources */,
 				04559C7E24D7FF9000BBF9C0 /* Main.storyboard in Resources */,
 				0449725B24EA72E900720E67 /* SFUIDisplay-Semibold.ttf in Resources */,
-				04EE798424DD3490008894B4 /* png1.png in Resources */,
 				0449725A24EA72E900720E67 /* SFUIDisplay-Medium.ttf in Resources */,
+				044A094624F8033D009EC434 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +252,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -313,6 +306,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
