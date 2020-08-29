@@ -12,7 +12,6 @@
 		0449725B24EA72E900720E67 /* SFUIDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0449725924EA72E900720E67 /* SFUIDisplay-Semibold.ttf */; };
 		0449726124EA84D500720E67 /* AstaticController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449726024EA84D500720E67 /* AstaticController.swift */; };
 		0449726324EA8F8700720E67 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449726224EA8F8700720E67 /* DetailController.swift */; };
-		044A094624F8033D009EC434 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 044A094524F8033D009EC434 /* GoogleService-Info.plist */; };
 		04559C7724D7FF9000BBF9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04559C7624D7FF9000BBF9C0 /* AppDelegate.swift */; };
 		04559C7924D7FF9000BBF9C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04559C7824D7FF9000BBF9C0 /* SceneDelegate.swift */; };
 		04559C7B24D7FF9000BBF9C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04559C7A24D7FF9000BBF9C0 /* ViewController.swift */; };
@@ -31,7 +30,6 @@
 		0449725924EA72E900720E67 /* SFUIDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIDisplay-Semibold.ttf"; path = "../../../Downloads/iphone font/SFUIDisplay-Semibold.ttf"; sourceTree = "<group>"; };
 		0449726024EA84D500720E67 /* AstaticController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstaticController.swift; sourceTree = "<group>"; };
 		0449726224EA8F8700720E67 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
-		044A094524F8033D009EC434 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04559C7324D7FF9000BBF9C0 /* Helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04559C7624D7FF9000BBF9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04559C7824D7FF9000BBF9C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 				04D694A324DA9EAD0045B9BB /* Launch Screen.storyboard */,
 				0449725824EA72E900720E67 /* SFUIDisplay-Medium.ttf */,
 				0449725924EA72E900720E67 /* SFUIDisplay-Semibold.ttf */,
-				044A094524F8033D009EC434 /* GoogleService-Info.plist */,
 				04559C8424D7FF9100BBF9C0 /* Info.plist */,
 			);
 			path = Helloworld;
@@ -160,7 +157,6 @@
 				04559C7E24D7FF9000BBF9C0 /* Main.storyboard in Resources */,
 				0449725B24EA72E900720E67 /* SFUIDisplay-Semibold.ttf in Resources */,
 				0449725A24EA72E900720E67 /* SFUIDisplay-Medium.ttf in Resources */,
-				044A094624F8033D009EC434 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
