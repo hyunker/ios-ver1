@@ -1,0 +1,171 @@
+
+/* Class = "UILabel"; text = "서비스 준비중"; ObjectID = "0pW-xB-Y14"; */
+"0pW-xB-Y14.text" = "서비스 준비중";
+
+/* Class = "UITabBarItem"; title = "다줄톡"; ObjectID = "1GJ-RA-Bhk"; */
+"1GJ-RA-Bhk.title" = "다줄톡";
+
+/* Class = "UIButton"; normalTitle = "예약내역"; ObjectID = "5h8-kf-JWv"; */
+"5h8-kf-JWv.normalTitle" = "예약내역";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "60d-op-dpU"; */
+"60d-op-dpU.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "속눈썹"; ObjectID = "6N8-MO-zJE"; */
+"6N8-MO-zJE.title" = "속눈썹";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6nS-ei-pLP"; */
+"6nS-ei-pLP.text" = "Label";
+
+/* Class = "UILabel"; text = "왁싱"; ObjectID = "8Jr-tk-Pmf"; */
+"8Jr-tk-Pmf.text" = "왁싱";
+
+/* Class = "UITabBarItem"; title = "메이크업"; ObjectID = "8hN-4t-I1z"; */
+"8hN-4t-I1z.title" = "메이크업";
+
+/* Class = "UILabel"; text = "내주변 추천 디자이너"; ObjectID = "989-uP-RrG"; */
+"989-uP-RrG.text" = "내주변 추천 디자이너";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9G4-VW-K0T"; */
+"9G4-VW-K0T.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "활동내역"; ObjectID = "BM5-Gc-sno"; */
+"BM5-Gc-sno.normalTitle" = "활동내역";
+
+/* Class = "UILabel"; text = "지역"; ObjectID = "BMo-ac-nBa"; */
+"BMo-ac-nBa.text" = "지역";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CRd-5B-sOP"; */
+"CRd-5B-sOP.text" = "Label";
+
+/* Class = "UILabel"; text = "네일아트"; ObjectID = "DDC-No-yMO"; */
+"DDC-No-yMO.text" = "네일아트";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DDv-in-pad"; */
+"DDv-in-pad.text" = "Label";
+
+/* Class = "UILabel"; text = "메이크업"; ObjectID = "F81-bV-7xu"; */
+"F81-bV-7xu.text" = "메이크업";
+
+/* Class = "UIButton"; normalTitle = "고객문의"; ObjectID = "FGw-rf-MdB"; */
+"FGw-rf-MdB.normalTitle" = "고객문의";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Fzj-dI-1d0"; */
+"Fzj-dI-1d0.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "MY다줄"; ObjectID = "JCm-9q-usB"; */
+"JCm-9q-usB.title" = "MY다줄";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JGL-2A-3cX"; */
+"JGL-2A-3cX.text" = "Label";
+
+/* Class = "UILabel"; text = "서비스 준비중"; ObjectID = "KgP-X6-DKA"; */
+"KgP-X6-DKA.text" = "서비스 준비중";
+
+/* Class = "UIButton"; normalTitle = "저장내역"; ObjectID = "L58-wW-AVE"; */
+"L58-wW-AVE.normalTitle" = "저장내역";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MV5-om-dgr"; */
+"MV5-om-dgr.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "에스태틱"; ObjectID = "POh-Qx-Dx5"; */
+"POh-Qx-Dx5.title" = "에스태틱";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QUY-vi-vuv"; */
+"QUY-vi-vuv.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "스토어"; ObjectID = "RJh-lj-8OR"; */
+"RJh-lj-8OR.normalTitle" = "스토어";
+
+/* Class = "UITabBarItem"; title = "왁싱"; ObjectID = "SBq-5w-Jn2"; */
+"SBq-5w-Jn2.title" = "왁싱";
+
+/* Class = "UILabel"; text = "최근 본 목록"; ObjectID = "ST3-XX-Kz7"; */
+"ST3-XX-Kz7.text" = "최근 본 목록";
+
+/* Class = "UILabel"; text = "로그인구역"; ObjectID = "SX7-VU-7ZR"; */
+"SX7-VU-7ZR.text" = "로그인구역";
+
+/* Class = "UIButton"; normalTitle = "메이크업"; ObjectID = "TVU-AY-DMy"; */
+"TVU-AY-DMy.normalTitle" = "메이크업";
+
+/* Class = "UIButton"; normalTitle = "도움말"; ObjectID = "Xxb-iR-Ssg"; */
+"Xxb-iR-Ssg.normalTitle" = "도움말";
+
+/* Class = "UIButton"; normalTitle = "네일"; ObjectID = "Yuk-oJ-8Tv"; */
+"Yuk-oJ-8Tv.normalTitle" = "네일";
+
+/* Class = "UIButton"; normalTitle = "에스태틱"; ObjectID = "b4N-TJ-5sD"; */
+"b4N-TJ-5sD.normalTitle" = "에스태틱";
+
+/* Class = "UIButton"; normalTitle = "회사소개"; ObjectID = "b7O-Sk-pII"; */
+"b7O-Sk-pII.normalTitle" = "회사소개";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bh2-AU-Mub"; */
+"bh2-AU-Mub.text" = "Label";
+
+/* Class = "UISegmentedControl"; cMf-v9-Cha.segmentTitles[0] = "First"; ObjectID = "cMf-v9-Cha"; */
+"cMf-v9-Cha.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; cMf-v9-Cha.segmentTitles[1] = "Second"; ObjectID = "cMf-v9-Cha"; */
+"cMf-v9-Cha.segmentTitles[1]" = "Second";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dRa-uH-PrE"; */
+"dRa-uH-PrE.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eZx-Nq-FW2"; */
+"eZx-Nq-FW2.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "속눈썹"; ObjectID = "fHk-xz-IQC"; */
+"fHk-xz-IQC.normalTitle" = "속눈썹";
+
+/* Class = "UIButton"; normalTitle = "최근 본 목록"; ObjectID = "fzs-qR-cbS"; */
+"fzs-qR-cbS.normalTitle" = "최근 본 목록";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "i0x-Ge-UnH"; */
+"i0x-Ge-UnH.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iPn-dx-hsu"; */
+"iPn-dx-hsu.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iba-op-cit"; */
+"iba-op-cit.text" = "Label";
+
+/* Class = "UILabel"; text = "속눈썹"; ObjectID = "kKD-eA-lyP"; */
+"kKD-eA-lyP.text" = "속눈썹";
+
+/* Class = "UITabBarItem"; title = "내주변"; ObjectID = "kw6-vQ-7pC"; */
+"kw6-vQ-7pC.title" = "내주변";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "l2b-bU-oAC"; */
+"l2b-bU-oAC.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "네일"; ObjectID = "n1o-5W-sF0"; */
+"n1o-5W-sF0.title" = "네일";
+
+/* Class = "UIButton"; normalTitle = "왁싱"; ObjectID = "pDs-at-iZx"; */
+"pDs-at-iZx.normalTitle" = "왁싱";
+
+/* Class = "UILabel"; text = "추천 스타일"; ObjectID = "pgP-xH-XCP"; */
+"pgP-xH-XCP.text" = "추천 스타일";
+
+/* Class = "UIButton"; normalTitle = "공지사항"; ObjectID = "pyd-oP-KnL"; */
+"pyd-oP-KnL.normalTitle" = "공지사항";
+
+/* Class = "UILabel"; text = "에스태틱"; ObjectID = "qR5-iM-zEC"; */
+"qR5-iM-zEC.text" = "에스태틱";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wHR-VX-HEQ"; */
+"wHR-VX-HEQ.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "편집"; ObjectID = "wmS-vw-IQq"; */
+"wmS-vw-IQq.title" = "편집";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yvI-ho-6vZ"; */
+"yvI-ho-6vZ.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "홈"; ObjectID = "zNP-8r-UM0"; */
+"zNP-8r-UM0.title" = "홈";
+
+/* Class = "UITabBarItem"; title = "상담"; ObjectID = "zbf-r6-IP7"; */
+"zbf-r6-IP7.title" = "상담";
