@@ -7,7 +7,7 @@
 //
 
 import UIKit
-class DetailControlloer : UIViewController, UIGestureRecognizerDelegate {
+class LoginControlloer : UIViewController, UIGestureRecognizerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
