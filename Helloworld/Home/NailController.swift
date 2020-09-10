@@ -1,14 +1,14 @@
 //
-//  AstaticController.swift
+//  NailController.swift
 //  Helloworld
 //
-//  Created by Macbook Air on 2020/08/17.
+//  Created by Macbook Air on 2020/09/10.
 //  Copyright © 2020 mac. All rights reserved.
 //
 
 import UIKit
 
-class AstaticController : UIViewController {
+class NailController : UIViewController {
     
     @IBAction func popToPrev(){
         self.navigationController?.popViewController(animated: true)
@@ -18,4 +18,3 @@ class AstaticController : UIViewController {
         // Do any additional setup after loading the view.
     }
 }
-

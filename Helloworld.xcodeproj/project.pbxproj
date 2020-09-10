@@ -11,12 +11,28 @@
 		0449725A24EA72E900720E67 /* SFUIDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0449725824EA72E900720E67 /* SFUIDisplay-Medium.ttf */; };
 		0449725B24EA72E900720E67 /* SFUIDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0449725924EA72E900720E67 /* SFUIDisplay-Semibold.ttf */; };
 		0449726124EA84D500720E67 /* AstaticController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449726024EA84D500720E67 /* AstaticController.swift */; };
-		0449726324EA8F8700720E67 /* LoginlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449726224EA8F8700720E67 /* LoginlController.swift */; };
+		0449726324EA8F8700720E67 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449726224EA8F8700720E67 /* LoginController.swift */; };
 		04559C7724D7FF9000BBF9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04559C7624D7FF9000BBF9C0 /* AppDelegate.swift */; };
 		04559C7924D7FF9000BBF9C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04559C7824D7FF9000BBF9C0 /* SceneDelegate.swift */; };
 		04559C7B24D7FF9000BBF9C0 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04559C7A24D7FF9000BBF9C0 /* MainController.swift */; };
 		04559C7E24D7FF9000BBF9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04559C7C24D7FF9000BBF9C0 /* Main.storyboard */; };
 		04559C8024D7FF9100BBF9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04559C7F24D7FF9100BBF9C0 /* Assets.xcassets */; };
+		04BF2667250A5C1F00838F0C /* NailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2666250A5C1F00838F0C /* NailController.swift */; };
+		04BF2669250A5D1400838F0C /* WaxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2668250A5D1400838F0C /* WaxController.swift */; };
+		04BF266B250A5DAD00838F0C /* EyelashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF266A250A5DAD00838F0C /* EyelashController.swift */; };
+		04BF266D250A5DD300838F0C /* MakeupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF266C250A5DD300838F0C /* MakeupController.swift */; };
+		04BF266F250A5E7A00838F0C /* StoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF266E250A5E7A00838F0C /* StoreController.swift */; };
+		04BF2671250A605600838F0C /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2670250A605600838F0C /* SearchController.swift */; };
+		04BF2673250A614B00838F0C /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2672250A614B00838F0C /* ResultController.swift */; };
+		04BF2677250A630500838F0C /* SortController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2676250A630500838F0C /* SortController.swift */; };
+		04BF267F250A70FE00838F0C /* StoragehistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF267E250A70FE00838F0C /* StoragehistoryController.swift */; };
+		04BF2681250A715100838F0C /* ActivityhistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2680250A715100838F0C /* ActivityhistoryController.swift */; };
+		04BF2683250A719A00838F0C /* ReservationhistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2682250A719A00838F0C /* ReservationhistoryController.swift */; };
+		04BF2685250A71FA00838F0C /* RecentlistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2684250A71FA00838F0C /* RecentlistController.swift */; };
+		04BF2687250A724500838F0C /* Inquirycontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2686250A724500838F0C /* Inquirycontroller.swift */; };
+		04BF2689250A726D00838F0C /* NoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2688250A726D00838F0C /* NoticeController.swift */; };
+		04BF268B250A729D00838F0C /* HelpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF268A250A729D00838F0C /* HelpController.swift */; };
+		04BF268D250A72F800838F0C /* CompanyintroductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF268C250A72F800838F0C /* CompanyintroductionController.swift */; };
 		04D694A424DA9EAD0045B9BB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D694A324DA9EAD0045B9BB /* Launch Screen.storyboard */; };
 		04F0F56024E3DF6800ECF761 /* TalkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F55F24E3DF6800ECF761 /* TalkController.swift */; };
 		04F0F56224E3DF9200ECF761 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56124E3DF9200ECF761 /* LocationController.swift */; };
@@ -29,7 +45,7 @@
 		0449725824EA72E900720E67 /* SFUIDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIDisplay-Medium.ttf"; path = "../../../Downloads/iphone font/SFUIDisplay-Medium.ttf"; sourceTree = "<group>"; };
 		0449725924EA72E900720E67 /* SFUIDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIDisplay-Semibold.ttf"; path = "../../../Downloads/iphone font/SFUIDisplay-Semibold.ttf"; sourceTree = "<group>"; };
 		0449726024EA84D500720E67 /* AstaticController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstaticController.swift; sourceTree = "<group>"; };
-		0449726224EA8F8700720E67 /* LoginlController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginlController.swift; sourceTree = "<group>"; };
+		0449726224EA8F8700720E67 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		04559C7324D7FF9000BBF9C0 /* Helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04559C7624D7FF9000BBF9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04559C7824D7FF9000BBF9C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +54,22 @@
 		04559C7F24D7FF9100BBF9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04559C8424D7FF9100BBF9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04725FD42502305300AC4BB9 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		04BF2666250A5C1F00838F0C /* NailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailController.swift; sourceTree = "<group>"; };
+		04BF2668250A5D1400838F0C /* WaxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaxController.swift; sourceTree = "<group>"; };
+		04BF266A250A5DAD00838F0C /* EyelashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyelashController.swift; sourceTree = "<group>"; };
+		04BF266C250A5DD300838F0C /* MakeupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeupController.swift; sourceTree = "<group>"; };
+		04BF266E250A5E7A00838F0C /* StoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreController.swift; sourceTree = "<group>"; };
+		04BF2670250A605600838F0C /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		04BF2672250A614B00838F0C /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		04BF2676250A630500838F0C /* SortController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortController.swift; sourceTree = "<group>"; };
+		04BF267E250A70FE00838F0C /* StoragehistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoragehistoryController.swift; sourceTree = "<group>"; };
+		04BF2680250A715100838F0C /* ActivityhistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityhistoryController.swift; sourceTree = "<group>"; };
+		04BF2682250A719A00838F0C /* ReservationhistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationhistoryController.swift; sourceTree = "<group>"; };
+		04BF2684250A71FA00838F0C /* RecentlistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlistController.swift; sourceTree = "<group>"; };
+		04BF2686250A724500838F0C /* Inquirycontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inquirycontroller.swift; sourceTree = "<group>"; };
+		04BF2688250A726D00838F0C /* NoticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeController.swift; sourceTree = "<group>"; };
+		04BF268A250A729D00838F0C /* HelpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpController.swift; sourceTree = "<group>"; };
+		04BF268C250A72F800838F0C /* CompanyintroductionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyintroductionController.swift; sourceTree = "<group>"; };
 		04D694A324DA9EAD0045B9BB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		04F0F55F24E3DF6800ECF761 /* TalkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkController.swift; sourceTree = "<group>"; };
 		04F0F56124E3DF9200ECF761 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
@@ -75,16 +107,17 @@
 		04559C7524D7FF9000BBF9C0 /* Helloworld */ = {
 			isa = PBXGroup;
 			children = (
+				04BF2678250A691D00838F0C /* Home */,
+				04BF267B250A6A4200838F0C /* Local */,
+				04BF267C250A6AA000838F0C /* Board */,
+				04BF267D250A6AB600838F0C /* Counsel */,
+				04BF267A250A697500838F0C /* Setup */,
 				0440967124D82CE7006CBFBD /* ButtonController.swift */,
 				04559C7624D7FF9000BBF9C0 /* AppDelegate.swift */,
 				04559C7824D7FF9000BBF9C0 /* SceneDelegate.swift */,
-				04559C7A24D7FF9000BBF9C0 /* MainController.swift */,
-				04F0F55F24E3DF6800ECF761 /* TalkController.swift */,
-				04F0F56524E3E03B00ECF761 /* CounselController.swift */,
-				04F0F56124E3DF9200ECF761 /* LocationController.swift */,
-				0449726224EA8F8700720E67 /* LoginlController.swift */,
-				04F0F56324E3DFE700ECF761 /* SettingController.swift */,
-				0449726024EA84D500720E67 /* AstaticController.swift */,
+				04BF2670250A605600838F0C /* SearchController.swift */,
+				04BF2672250A614B00838F0C /* ResultController.swift */,
+				04BF2676250A630500838F0C /* SortController.swift */,
 				04559C7C24D7FF9000BBF9C0 /* Main.storyboard */,
 				04559C7F24D7FF9100BBF9C0 /* Assets.xcassets */,
 				04D694A324DA9EAD0045B9BB /* Launch Screen.storyboard */,
@@ -93,6 +126,61 @@
 				04559C8424D7FF9100BBF9C0 /* Info.plist */,
 			);
 			path = Helloworld;
+			sourceTree = "<group>";
+		};
+		04BF2678250A691D00838F0C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04559C7A24D7FF9000BBF9C0 /* MainController.swift */,
+				0449726024EA84D500720E67 /* AstaticController.swift */,
+				04BF2666250A5C1F00838F0C /* NailController.swift */,
+				04BF2668250A5D1400838F0C /* WaxController.swift */,
+				04BF266A250A5DAD00838F0C /* EyelashController.swift */,
+				04BF266C250A5DD300838F0C /* MakeupController.swift */,
+				04BF266E250A5E7A00838F0C /* StoreController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04BF267A250A697500838F0C /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				04F0F56324E3DFE700ECF761 /* SettingController.swift */,
+				0449726224EA8F8700720E67 /* LoginController.swift */,
+				04BF267E250A70FE00838F0C /* StoragehistoryController.swift */,
+				04BF2680250A715100838F0C /* ActivityhistoryController.swift */,
+				04BF2682250A719A00838F0C /* ReservationhistoryController.swift */,
+				04BF2684250A71FA00838F0C /* RecentlistController.swift */,
+				04BF2686250A724500838F0C /* Inquirycontroller.swift */,
+				04BF2688250A726D00838F0C /* NoticeController.swift */,
+				04BF268A250A729D00838F0C /* HelpController.swift */,
+				04BF268C250A72F800838F0C /* CompanyintroductionController.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		04BF267B250A6A4200838F0C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				04F0F56124E3DF9200ECF761 /* LocationController.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		04BF267C250A6AA000838F0C /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				04F0F55F24E3DF6800ECF761 /* TalkController.swift */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		04BF267D250A6AB600838F0C /* Counsel */ = {
+			isa = PBXGroup;
+			children = (
+				04F0F56524E3E03B00ECF761 /* CounselController.swift */,
+			);
+			path = Counsel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,15 +257,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BF2685250A71FA00838F0C /* RecentlistController.swift in Sources */,
+				04BF266D250A5DD300838F0C /* MakeupController.swift in Sources */,
+				04BF2681250A715100838F0C /* ActivityhistoryController.swift in Sources */,
 				04F0F56224E3DF9200ECF761 /* LocationController.swift in Sources */,
+				04BF2673250A614B00838F0C /* ResultController.swift in Sources */,
 				04559C7B24D7FF9000BBF9C0 /* MainController.swift in Sources */,
+				04BF268B250A729D00838F0C /* HelpController.swift in Sources */,
 				04F0F56024E3DF6800ECF761 /* TalkController.swift in Sources */,
+				04BF266F250A5E7A00838F0C /* StoreController.swift in Sources */,
 				0440967224D82CE7006CBFBD /* ButtonController.swift in Sources */,
+				04BF2667250A5C1F00838F0C /* NailController.swift in Sources */,
 				04F0F56624E3E03B00ECF761 /* CounselController.swift in Sources */,
+				04BF2677250A630500838F0C /* SortController.swift in Sources */,
+				04BF2669250A5D1400838F0C /* WaxController.swift in Sources */,
+				04BF2687250A724500838F0C /* Inquirycontroller.swift in Sources */,
+				04BF266B250A5DAD00838F0C /* EyelashController.swift in Sources */,
+				04BF2689250A726D00838F0C /* NoticeController.swift in Sources */,
+				04BF2683250A719A00838F0C /* ReservationhistoryController.swift in Sources */,
 				04559C7724D7FF9000BBF9C0 /* AppDelegate.swift in Sources */,
+				04BF268D250A72F800838F0C /* CompanyintroductionController.swift in Sources */,
+				04BF2671250A605600838F0C /* SearchController.swift in Sources */,
 				04559C7924D7FF9000BBF9C0 /* SceneDelegate.swift in Sources */,
 				04F0F56424E3DFE700ECF761 /* SettingController.swift in Sources */,
-				0449726324EA8F8700720E67 /* LoginlController.swift in Sources */,
+				04BF267F250A70FE00838F0C /* StoragehistoryController.swift in Sources */,
+				0449726324EA8F8700720E67 /* LoginController.swift in Sources */,
 				0449726124EA84D500720E67 /* AstaticController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
