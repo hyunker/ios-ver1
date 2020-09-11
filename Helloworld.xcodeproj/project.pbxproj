@@ -33,6 +33,9 @@
 		04BF2689250A726D00838F0C /* NoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2688250A726D00838F0C /* NoticeController.swift */; };
 		04BF268B250A729D00838F0C /* HelpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF268A250A729D00838F0C /* HelpController.swift */; };
 		04BF268D250A72F800838F0C /* CompanyintroductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF268C250A72F800838F0C /* CompanyintroductionController.swift */; };
+		04BF268F250BA61D00838F0C /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF268E250BA61D00838F0C /* SignupController.swift */; };
+		04BF2691250BA69200838F0C /* IdfindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2690250BA69200838F0C /* IdfindController.swift */; };
+		04BF2693250BA6F200838F0C /* PasswordfindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF2692250BA6F200838F0C /* PasswordfindController.swift */; };
 		04D694A424DA9EAD0045B9BB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D694A324DA9EAD0045B9BB /* Launch Screen.storyboard */; };
 		04F0F56024E3DF6800ECF761 /* TalkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F55F24E3DF6800ECF761 /* TalkController.swift */; };
 		04F0F56224E3DF9200ECF761 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0F56124E3DF9200ECF761 /* LocationController.swift */; };
@@ -70,6 +73,9 @@
 		04BF2688250A726D00838F0C /* NoticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeController.swift; sourceTree = "<group>"; };
 		04BF268A250A729D00838F0C /* HelpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpController.swift; sourceTree = "<group>"; };
 		04BF268C250A72F800838F0C /* CompanyintroductionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyintroductionController.swift; sourceTree = "<group>"; };
+		04BF268E250BA61D00838F0C /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		04BF2690250BA69200838F0C /* IdfindController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdfindController.swift; sourceTree = "<group>"; };
+		04BF2692250BA6F200838F0C /* PasswordfindController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordfindController.swift; sourceTree = "<group>"; };
 		04D694A324DA9EAD0045B9BB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		04F0F55F24E3DF6800ECF761 /* TalkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkController.swift; sourceTree = "<group>"; };
 		04F0F56124E3DF9200ECF761 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
@@ -155,6 +161,9 @@
 				04BF2688250A726D00838F0C /* NoticeController.swift */,
 				04BF268A250A729D00838F0C /* HelpController.swift */,
 				04BF268C250A72F800838F0C /* CompanyintroductionController.swift */,
+				04BF268E250BA61D00838F0C /* SignupController.swift */,
+				04BF2690250BA69200838F0C /* IdfindController.swift */,
+				04BF2692250BA6F200838F0C /* PasswordfindController.swift */,
 			);
 			path = Setup;
 			sourceTree = "<group>";
@@ -260,9 +269,11 @@
 				04BF2685250A71FA00838F0C /* RecentlistController.swift in Sources */,
 				04BF266D250A5DD300838F0C /* MakeupController.swift in Sources */,
 				04BF2681250A715100838F0C /* ActivityhistoryController.swift in Sources */,
+				04BF2693250BA6F200838F0C /* PasswordfindController.swift in Sources */,
 				04F0F56224E3DF9200ECF761 /* LocationController.swift in Sources */,
 				04BF2673250A614B00838F0C /* ResultController.swift in Sources */,
 				04559C7B24D7FF9000BBF9C0 /* MainController.swift in Sources */,
+				04BF268F250BA61D00838F0C /* SignupController.swift in Sources */,
 				04BF268B250A729D00838F0C /* HelpController.swift in Sources */,
 				04F0F56024E3DF6800ECF761 /* TalkController.swift in Sources */,
 				04BF266F250A5E7A00838F0C /* StoreController.swift in Sources */,
@@ -275,6 +286,7 @@
 				04BF266B250A5DAD00838F0C /* EyelashController.swift in Sources */,
 				04BF2689250A726D00838F0C /* NoticeController.swift in Sources */,
 				04BF2683250A719A00838F0C /* ReservationhistoryController.swift in Sources */,
+				04BF2691250BA69200838F0C /* IdfindController.swift in Sources */,
 				04559C7724D7FF9000BBF9C0 /* AppDelegate.swift in Sources */,
 				04BF268D250A72F800838F0C /* CompanyintroductionController.swift in Sources */,
 				04BF2671250A605600838F0C /* SearchController.swift in Sources */,

@@ -1,14 +1,14 @@
 //
-//  ActivityhistoryController.swift
+//  PasswordfindController.swift
 //  Helloworld
 //
-//  Created by Macbook Air on 2020/09/10.
+//  Created by Macbook Air on 2020/09/11.
 //  Copyright © 2020 mac. All rights reserved.
 //
 
 import UIKit
 
-class ActivityhistoryController : UIViewController {
+class PasswordfindController : UIViewController {
     
     @IBAction func popToPrev(){
         self.navigationController?.popViewController(animated: true)
