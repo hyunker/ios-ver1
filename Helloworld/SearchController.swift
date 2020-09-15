@@ -13,8 +13,10 @@ class SearchController : UIViewController {
     @IBAction func popToPrev(){
         self.navigationController?.popViewController(animated: true)
     }
+    @IBOutlet weak var searchbtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        searchbtn.layer.cornerRadius = 10
     }
 }

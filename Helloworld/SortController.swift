@@ -10,8 +10,10 @@ import UIKit
 
 class SortController : UIViewController {
 
+    @IBOutlet weak var sortbtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        sortbtn.layer.cornerRadius = 10
     }
 }
